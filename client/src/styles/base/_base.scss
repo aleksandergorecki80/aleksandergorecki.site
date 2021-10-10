@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    // border: 1px solid red;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    // font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    height: 100%;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.button--green {
+    background-color: $main-green;
+    &:hover {
+        background-color: darken($main-green, $amount: 10);
+    }
+}
+
+.button--red {
+    background-color: $main-red;
+    &:hover {
+        background-color: darken($main-red, $amount: 10);
+    }
+}
+
+.is-avtive {
+    color: white !important;
+    background-color: $main-red;
+    cursor: default;
+    &:hover {
+        background-color: $main-red !important;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 920px;
+}
+
+.hr--separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid $light-grey;
+    width: 30%;
+}
+
+.hr--sections-separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid $main-green;
+    width: 100%;
+}
+
+a:hover {
+    color: white;
+}
+
+
+@media screen and (max-width: 767px){ 	
+	.container {
+		width: 100%;
+    }
+}

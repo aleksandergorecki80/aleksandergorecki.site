@@ -1,0 +1,36 @@
+.portfolio {
+    color: $off-black;
+    img {
+        width: 100%;
+    }
+    h3 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 10px 0 10px 0; 
+        text-align: left;
+    }
+    h4 {
+        font-size: 2rem;
+        font-weight: normal;
+        margin: 10px 0;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style: none;
+    }
+    .portfolio__check--icon {
+        font-size: 1.3rem;
+        color: $main-green;
+        margin-right: 5px;
+    }
+    .portfolio__button {
+        width: 150px;
+        padding: 20px 0;
+        font-size: medium;
+    }
+    .portfolio__button_margin-right {
+        margin: 0 10px 0 0;
+    }
+}

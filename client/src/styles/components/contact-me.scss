@@ -1,0 +1,31 @@
+.photo-of-me {
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px 0 20px 0;
+    width: 100px;
+  }
+
+.contact-me__data {
+    h4 {
+        text-align: center;
+    }
+}
+
+.contact-me__icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    .contact-me__icon {
+      font-size: 1.8em;
+      color: $main-red
+    }
+  a:hover .contact-me__icon {
+    color: $main-green;
+    }
+}
+
+.contact-me_photo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
