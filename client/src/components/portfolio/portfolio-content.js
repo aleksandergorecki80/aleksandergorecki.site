@@ -1,6 +1,18 @@
 const PortfolioContent = {
     data: [
         {
+            title: "crudtemplate.rest",
+            subtitle: "",
+            description: "Backend API for CRUD template application with posts, comments and users. Admin mode allows users administration.",
+            img: "crudtemplate",
+            imgCounter: 1,
+            technologies: [ "Express", "MongoDB", "NodeJS", "Postman" ],
+            wwwButtonName: "",
+            wwwButtonUrl: "https://www.crudtemplate.rest",
+            githubButtonName: "",
+            githubButtonUrl: "https://github.com/aleksandergorecki80/crudtemplate.rest"
+        },
+        {
             title: "My films collection",
             subtitle: "",
             description: "CRUD application for a personal films library. Data can be imported from external API or added manually. App allows to register multiple users.",
