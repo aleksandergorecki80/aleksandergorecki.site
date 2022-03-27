@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-// import GalleryModal from '../galleryModal/GalleryModal';
 import CaruselModal from '../galleryModal/CaruselModal';
 
 const PortfolioPage = (props) => {
@@ -67,7 +66,6 @@ const PortfolioPage = (props) => {
         </div>
       </div>
       <div>
-        <hr className="hr--separator" />
       </div>
       {/* { gallery && <GalleryModal img={props.project.img} imgCounter={props.project.imgCounter} setGallery={setGallery}/> } */}
       {gallery && (

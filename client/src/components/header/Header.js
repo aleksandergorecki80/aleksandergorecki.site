@@ -2,7 +2,7 @@ import React from 'react';
 import SideDrawer from './SideDrawer/SideDrawer';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 import Backdrop from './backdrop/Backdrop';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import AGLogo from '../../images/logo-ag-imp.svg';
 
 class Header extends React.Component {

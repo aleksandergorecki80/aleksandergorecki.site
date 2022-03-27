@@ -27,25 +27,15 @@ const PortfolioContent = {
         {
             title: "Books to read",
             subtitle: "",
-            description: "The aplication lets to add books to the 'to read' list. The list is devided to several categories. It display books from category when link is clicked. The same is when clicked an author name or priority. It also has filtering by multiple categories. Positions on list are editabled. App uses local storage.",
+            description: "The aplication lets to add books to the 'to read' list. The list is devided to several categories. It display books from category when link is clicked. The same is when clicked an author name or priority. Positions on list are editabled. App uses local storage.",
             img: "books_to_read",
             imgCounter: 3,
-            technologies: [ "Vanilla JavaScript" ],
+            technologies: [ "TypeScript", "Sass" ],
             wwwButtonName: "",
-            wwwButtonUrl: "https://aleksandergorecki80.github.io/BooksToRead/",
+            wwwButtonUrl: "https://aleksandergorecki80.github.io/BooksToRead_2.0/",
             githubButtonName: "",
             githubButtonUrl: "https://github.com/aleksandergorecki80/BooksToRead"
         },
-        // {
-        //     title: "Blog Justyny",
-        //     subtitle: "Web page with recipes",
-        //     img: ["blog-justyny"],
-        //     technologies: [ "Laravel", "VUE.js", "PHP", "JavaScript", "SCSS" ],
-        //     wwwButtonName: "blogjustyny.pl",
-        //     wwwButtonUrl: "https://blogjustyny.pl/",
-        //     githubButtonName: "",
-        //     githubButtonUrl: "https://github.com/aleksandergorecki80/BlogJustyny"
-        // },
         {
             title: "Noughts And Crosses",
             subtitle: "A classic strategic paper-and-pencil game for two players",

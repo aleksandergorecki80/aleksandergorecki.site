@@ -10,7 +10,6 @@ class AboutMe extends Component {
         return (
             <div className="about-me__content">
                 <h5>{this.props.title}</h5>
-                <hr />
                 {bodyTable}
             </div>
         )

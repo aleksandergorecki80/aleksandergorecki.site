@@ -27,6 +27,11 @@
         padding: 10px 0;
         cursor: pointer;
     }
+    .button__disabled {
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+    }
     .error-message {
       color: darken($main-red, 10%);
       color: $main-red;
@@ -38,3 +43,5 @@
       font-size: 1.2em;
     }
 }
+
+
