@@ -1,6 +1,18 @@
 const PortfolioContent = {
     data: [
         {
+            title: "Build your vocabulary",
+            subtitle: "",
+            description: "The web game app that loads definitions of english word. The user guesses the meaning of the word.",
+            img: "build_your_vocabulary",
+            imgCounter: 3,
+            technologies: [ "TypeScript", "React JS", "Redux", "Material UI", "External API", "Express" ],
+            wwwButtonName: "",
+            wwwButtonUrl: "https://wordsartisan.xyz/",
+            githubButtonName: "",
+            githubButtonUrl: "https://github.com/aleksandergorecki80/BuildYourVocabulary-frontend_2.0"
+        },
+        {
             title: "crudtemplate.rest",
             subtitle: "",
             description: "Backend API for CRUD template application with posts, comments and users. Admin mode allows users administration.",
@@ -25,6 +37,18 @@ const PortfolioContent = {
             githubButtonUrl: "https://github.com/aleksandergorecki80/moviescollection.store"
         },
         {
+            title: "Ordering dishes form",
+            subtitle: "",
+            description: "The web form that imitates food ordering process. It sends post request and displays result or error message.",
+            img: "ordering_dishes",
+            imgCounter: 3,
+            technologies: [ "React JS", "Redux", "Redux Form", "External API" ],
+            wwwButtonName: "",
+            wwwButtonUrl: "https://ordering-dishes-form.herokuapp.com/",
+            githubButtonName: "",
+            githubButtonUrl: "https://github.com/aleksandergorecki80/OrderingDishesForm"
+        },
+        {
             title: "Books to read",
             subtitle: "",
             description: "The aplication lets to add books to the 'to read' list. The list is devided to several categories. It display books from category when link is clicked. The same is when clicked an author name or priority. Positions on list are editabled. App uses local storage.",
@@ -41,7 +65,7 @@ const PortfolioContent = {
             subtitle: "A classic strategic paper-and-pencil game for two players",
             img: "noughts-and-crosses",
             imgCounter: 3,
-            technologies: [ "React JS", "Redux", "React hooks", "SCSS" ],
+            technologies: [ "React JS", "Redux", "React hooks", "Sass" ],
             wwwButtonName: "",
             wwwButtonUrl: "https://aleksandergorecki80.github.io/NoughtsAndCrosses/#/",
             githubButtonName: "",
@@ -52,7 +76,7 @@ const PortfolioContent = {
             subtitle: "Javascript Web Game",
             img: "batleship",
             imgCounter: 2,
-            technologies: [ "JavaScript ES5/ES6", "HTML 5" ],
+            technologies: [ "Vanilla JavaScript", "HTML 5" ],
             wwwButtonName: "",
             wwwButtonUrl: "https://aleksandergorecki80.github.io/Battleship-2.0/",
             githubButtonName: "",
@@ -63,7 +87,7 @@ const PortfolioContent = {
             subtitle: "Javascript Web Game",
             img: "rock-paper-scisors",
             imgCounter: 3,
-            technologies: [ "JavaScript ES5/ES6", "HTML 5", "Bootstrap" ],
+            technologies: [ "Vanilla JavaScript", "HTML 5", "Bootstrap" ],
             wwwButtonName: "",
             wwwButtonUrl: "https://aleksandergorecki80.github.io/9_7a__Play_with_Dr-Sheldon-Cooper/",
             githubButtonName: "",
@@ -90,17 +114,7 @@ const PortfolioContent = {
             wwwButtonUrl: "https://aleksandergorecki80.github.io/17_8_Sudoku_game/",
             githubButtonName: "",
             githubButtonUrl: "https://github.com/aleksandergorecki80/17_8_Sudoku_game"
-        },
-        // {
-        //     title: "GOLDEN",
-        //     subtitle: "Mock-up landing page",
-        //     img: ["gold-img-responsive"],
-        //     technologies: [ "Responsiwe design", "JavaScript", "HTML 5", "Bootstrap", "SCSS" ],
-        //     wwwButtonName: "",
-        //     wwwButtonUrl: "https://aleksandergorecki80.github.io/7_7__GOLDEN_landing_page/",
-        //     githubButtonName: "",
-        //     githubButtonUrl: "https://github.com/aleksandergorecki80/7_7__GOLDEN_landing_page"
-        // }
+        }
     ]
 };
 

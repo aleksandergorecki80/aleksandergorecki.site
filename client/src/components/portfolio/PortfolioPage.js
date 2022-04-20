@@ -67,7 +67,6 @@ const PortfolioPage = (props) => {
       </div>
       <div>
       </div>
-      {/* { gallery && <GalleryModal img={props.project.img} imgCounter={props.project.imgCounter} setGallery={setGallery}/> } */}
       {gallery && (
         <CaruselModal photosArr={photosArr} setGallery={setGallery} />
       )}

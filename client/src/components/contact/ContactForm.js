@@ -8,7 +8,7 @@ class ContactForm extends React.Component {
     messages: {
       isEmpty: 'This field can not be empty.',
       tooShort: 'This field must contain three or mor caracters.',
-      lettersAndNumbers: 'Only digit and numbers are allowed',
+      lettersAndNumbers: 'Only digits and letters are allowed',
       containCharacters: 'Invalid email adress.',
     },
     minimumLength: 3,
@@ -172,7 +172,7 @@ class ContactForm extends React.Component {
   };
 
   checkIfLettersAndDigits = (phrase) => {
-    const regEx = /^[a-zA-Z0-9 ]+$/;
+    const regEx = /^[a-zA-Z0-9ąĄćĆĘęŁłŃńÓóŚśŹźŻż ]+$/;
     if (regEx.test(phrase)) {
       return true;
     }
